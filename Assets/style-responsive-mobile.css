@@ -1,0 +1,106 @@
+@media screen and (max-width: 930px) {
+
+header img{
+    width: 30px;
+}
+
+h1{
+    font-size: 24px;
+}
+    
+.ecran{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.textPresentation {
+    font-size: 20px;
+}
+
+.caracteristiques{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#color{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containErgo{
+    flex-direction: column-reverse;
+    align-items: center;
+   }
+
+.imgErgo{
+    margin-left: 0;
+    margin-bottom: 1rem;
+    width: 50%;
+}
+
+.conserv{
+    flex-direction: column;
+    align-items: center;
+   }
+
+.chaud{
+    width: 250px;
+}
+
+.froid{
+    width: 250px;
+}
+
+.imgConserv{
+    margin-right: 0;
+    margin-bottom: 1rem;
+    width: 250px;
+    height: 250px;
+}
+
+.commande form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#quantite{
+    margin-right: 0;
+}
+
+#couleur{
+    margin-right: 0;
+}
+
+.logoQualite{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgGarantie{
+    order: 2;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+footer{
+    flex-direction: column-reverse;
+    align-items: center;
+   }
+
+.conditions{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footerForm{
+    display: flex;
+    align-items: center;
+}
+
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THEVORA</title>
+    <link rel="stylesheet" href="Assets/style.css">
+    <link rel="stylesheet" href="Assets/style-responsive.css">
+    <link rel="stylesheet" href="Assets/style-responsive-mobile.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img class="imgLgo" src="Assets/pictures/feuilles.png" width="60px">
+            <h1>THEVORA</h1>
+        </div>
+        <div class="menu">
+            <img class="france" src="Assets/pictures/france.png" width="60px">
+            <img class="sac" src="Assets/pictures/sac-de-courses.png" width="60px">
+            <img class="menu" src="Assets/pictures/menu.png" width="60px">
+        </div>
+    </header>
+    <hr class="hrUn">
+    <main>
+        <!-- presentation -->
+        <section class="presentation">
+
+            <section class="textPresentation">
+                <img class="titre" src="Assets/pictures/titre.png" width="100%">
+                <img class="titre2" src="Assets/pictures/titre2.png" width="100%">
+                <p>
+                    Ultra moderne et élégante, La bouteille THEVORA est le compagnon idéal pour vous accompagner où que
+                    vous soyez. Simple et pratique,
+                    elle vous offre le goût subtile du thé à bonne température.
+                </p>
+                <p>
+                    THEVORA est la promesse de voyager en dégustant votre selection des meilleurs thés à travers le
+                    monde.
+                </p>
+            </section>
+            <img class="imagePres" src="Assets/pictures/thermo - Copie.jpg" width="100%" height="100%">
+        </section>
+
+        <!-- ecran -->
+        <section class="ecran">
+            <img src="Assets/pictures/thermo10.webp" width="350px">
+            <div class="textEcran">
+                <h3>ECRAN LED IMPERMEABLE</h3>
+                <div class="caracteristiques">
+                    <div class="caract">
+                        <img src="Assets/pictures/lighting.png" width="60px" height="60px">
+                        <p>LITHIUM</p>
+                    </div>
+                    <div class="caract">
+                        <img src="Assets/pictures/la-batterie.png" width="60px" height="60px">
+                        <p>1 AN</p>
+                        <p>D'AUTONOMIE</p>
+                    </div>
+                    <div class="caract">
+                        <img src="Assets/pictures/goutte-deau.png" width="60px" height="60px">
+                        <p>IPX7</p>
+                        <p>(étanche)</p>
+                    </div>
+                    <div class="caract">
+                        <img src="Assets/pictures/monitor.png" width="60px" height="60px">
+                        <p>LED</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ergonomie -->
+        <section class="ergonomie">
+            <h3>ELEGANTE & ERGONOMIQUE</h3>
+            <div class="containErgo">
+                <div class="caractErgo">
+                    <div class="coque">
+                        <div class="titreCoque">
+                            <p>Coque int. :</p>
+                            <p>Coque ext. :</p>
+                        </div>
+                        <div>
+                            <p>Acier inox. 304</p>
+                            <p>Acier inox. 204</p>
+                        </div>
+                    </div>
+                    <div class="logoErgo">
+                        <div>
+                            <img src="Assets/pictures/la-taille.png" width="60px" height="60px">
+                            <p>6,5 * 6,5 * 23,3 cm</p>
+                        </div>
+                        <div>
+                            <img src="Assets/pictures/measure-cup.png" width="60px" height="60px">
+                            <p>500 mL</p>
+                        </div>
+                    </div>
+                    <div id="color">
+                        <div class="colorRed"></div>
+                        <div class="colorBlue"></div>
+                        <div class="colorWhite"></div>
+                        <div class="colorYellow"></div>
+                        <div class="colorBlack"></div>
+                    </div>
+                </div>
+                <img class="imgErgo" src="Assets/pictures/thermo9.webp" width="350px">
+            </div>
+        </section>
+
+        <!-- conversation -->
+        <section class="conservation">
+            <h3>CONSERVE LA TEMPERATURE</h3>
+            <div class="conserv">
+                <img class="imgConserv" src="Assets/pictures/thermo7.jpg" width="440px" height="440px">
+                <div class="temperature">
+                    <div class="chaud">
+                        <h4>CHAUD</h4>
+                        <div class="interval">
+                            <div>
+                                <p>JUSQU'A</p>
+                                <p class="heure">6<sup>h</sup></p>
+                            </div>
+                            <div>
+                                <p>A</p>
+                                <p class="temp">42°<sup>C</sup></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="froid">
+                        <h4>FROID</h4>
+                        <div class="interval">
+                            <div>
+                                <p>JUSQU'A</p>
+                                <p class="heure">5<sup>h</sup></p>
+                            </div>
+                            <div>
+                                <p>A</p>
+                                <p class="temp">10°<sup>C</sup></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- qualite -->
+        <section class="qualite">
+            <h3>QUALITE PREMIUM</h3>
+            <div class="logoQualite">
+                <img src="Assets/pictures/fda.png" width="60px">
+                <img class="imgGarantie" src="Assets/pictures/garantie.png" width="60px">
+                <img src="Assets/pictures/sans-bpa.png" width="60px">
+            </div>
+            <p>2 ans</p>
+        </section>
+
+        <!-- Commande -->
+        <section class="commande">
+            <form id="formCommande" action="action_page.php">
+                <div class="choixQuantite">
+                    <label for="quantite">Quantité</label>
+                    <select id="quantite" name="quantite">
+                        <option value=1>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                    </select>
+                </div>
+
+                <div class="choixCouleur">
+                    <label for="couleur">Couleur</label>
+                    <div class="couleur">
+                        <div id="colorSelect" class="colorSelect">
+                            <div class="colorRed colorPanier" id="colorRed" onclick="colorPicked('colorRed')"></div>
+                            <div class="colorBlue colorPanier" id="colorBlue" onclick="colorPicked('colorBlue')"></div>
+                            <div class="colorWhite colorPanier" id="colorWhite" onclick="colorPicked('colorWhite')"></div>
+                            <div class="colorYellow colorPanier" id="colorYellow" onclick="colorPicked('colorYellow')"></div>
+                            <div class="colorBlack colorPanier" id="colorBlack" onclick="colorPicked('colorBlack')"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="chevron" class="chevron" onclick="affichageCouleur()">
+                    >
+                </div>
+                <input class="commander" type="submit" value="AJOUTER AU PANIER">
+            </form>
+        </section>
+    </main>
+
+    <hr class="hrDeux">
+
+    <footer>
+        <div class="conditions">
+            <p>Mentions légales</p>
+            <p>CGV</p>
+            <p>Contactez-nous</p>
+        </div>
+        <div class="reseaux">
+            <img src="Assets/pictures/facebook (1).png" width="5%">
+            <img src="Assets/pictures/twitter.png" width="5%">
+            <img src="Assets/pictures/instagram.png" width="5%">
+        </div>
+        <div>
+            <form class="footerForm" action="">
+                <label class="nl" for="">News letters</label>
+                <div class="inscription">
+                    <input class="adresse" type="" placeholder="nom@exemple.com">
+                    <input class="ok" type="submit" value="ok">
+                </div>
+            </form>
+        </div>
+    </footer>
+
+    <script src="thevora.js"></script>
+</body>
+
+</html>

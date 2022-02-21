@@ -1,0 +1,21 @@
+@media screen and (max-width: 1140px) {
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titre{
+    display: none;
+}
+
+.titre2{
+    display: block;
+}
+
+.imagePres{
+    width: 50%;
+}
+
+}

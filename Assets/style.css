@@ -1,0 +1,474 @@
+@font-face {
+    font-family: "redressed";
+    src: url("font/Redressed-Regular.ttf");
+}
+
+@font-face {
+    font-family: "rht";
+    src: url("font/RedHatText-VariableFont_wght.ttf");
+}
+
+/* HEADER */
+
+html{
+    width: 100%;
+}
+
+body {
+    font-family: rht;
+    color: #565656;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border: 10px;
+    border-width: 10px;
+    border: #565656;
+    margin-bottom: 1rem;
+}
+
+.imgLogo{
+    margin-left: 1rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    color: #565656;
+    font-family: redressed;
+    margin-left: 1rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.france {
+    margin-right: 1rem;
+}
+
+.sac {
+    margin-right: 1rem;
+}
+
+
+.hrUn{
+    margin-bottom: 2rem;
+    width: 100%;
+    border: .5px solid #B4B4B4;
+}
+
+/* MAIN*/
+
+.presentation {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.titre{
+    position: absolute;
+    width: 70%;
+    top: 25%;
+    left: 1em;
+}
+
+.titre2{
+    display: none;
+}
+
+h2 {
+    position: absolute;
+    color: black;
+    margin-bottom: 0;
+}
+
+.textPresentation {
+    font-size: 30px;
+    margin: 2rem;
+    text-align: justify;
+}
+
+
+
+/* Ecran*/
+
+.ecran {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.textEcran {
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.caracteristiques {
+    display: flex;
+    justify-content: space-around;
+}
+
+.caract {
+    margin: 1rem;
+    text-align: center;
+}
+
+/* ERGO*/
+
+.ergonomie {
+    margin-top: 5rem;
+}
+
+.imgErgo {
+    border-radius: 30px;
+    margin-left: 2rem;
+}
+
+.containErgo {
+    display: flex;
+    justify-content: center;
+}
+
+.logoErgo {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.coque {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.titreCoque {
+    font-weight: bold;
+}
+
+/* COULEURS*/
+
+#color {
+    display: flex;
+    justify-content: center;
+}
+
+.colorRed {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 47px;
+    height: 47px;
+    background: linear-gradient(315deg, #FF3939 15.96%, #911414 90.43%);
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.colorBlue {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background: linear-gradient(315deg, #3988FF 15.96%, #0C1567 90.43%);
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.colorWhite {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 47px;
+    height: 47px;
+    left: calc(50% - 47px/2 - 349.5px);
+    top: 2222px;
+    border-radius: 50%;
+    background: linear-gradient(315deg, #FFFFFF 15.96%, #C6C6C6 90.43%);
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.colorYellow {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 47px;
+    height: 47px;
+    left: calc(50% - 47px/2 - 349.5px);
+    top: 2222px;
+    border-radius: 50%;
+    background: linear-gradient(315deg, #FFD439 15.96%, #977708 83.44%);
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.colorBlack {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 47px;
+    height: 47px;
+    left: calc(50% - 47px/2 - 349.5px);
+    top: 2222px;
+    border-radius: 50%;
+    background: linear-gradient(315deg, #000000 15.96%, #5F5F5F 90.43%);
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* CONSERVATION*/
+
+h4 {
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1rem;
+    margin-bottom: 0;
+    font-size: 2em;
+}
+
+.conserv p {
+    color: white;
+    text-align: center;
+}
+
+.conservation {
+    margin-top: 5rem;
+}
+
+.imgConserv {
+    border-radius: 30px;
+    margin-right: 2rem;
+}
+
+.conserv {
+    display: flex;
+    justify-content: center;
+}
+
+.interval {
+    display: flex;
+    justify-content: space-around;
+}
+
+.chaud {
+    width: 395px;
+    background: linear-gradient(180deg, #D8B500 0%, #FF3939 100%);
+    border-radius: 30px;
+    margin-bottom: 1rem;
+}
+
+.froid {
+    width: 395px;
+    background: linear-gradient(180deg, #39F3FF 0%, #1C69A2 100%);
+    border-radius: 30px;
+}
+
+.heure {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+}
+
+.heure sup {
+    font-size: .5em;
+}
+
+.temp {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+}
+
+.temp sup {
+    font-size: .5em;
+}
+
+/* QUALITE*/
+
+.qualite {
+    margin-top: 5rem;
+}
+
+.logoQualite {
+    display: flex;
+    justify-content: center;
+}
+
+.logoQualite img {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.qualite p {
+    text-align: center;
+}
+
+/* COMMANDER*/
+
+.commande{
+    margin-top: 5rem;  
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;  
+}
+
+label{
+    margin-right: 1em;
+    margin-top: .7em;
+}
+
+.choixCouleur{
+    display: flex;
+    align-items: flex-start;
+}
+
+select{
+    margin-right: 6em;
+    border: none;
+    height: 48px;
+    text-align: center;
+}
+
+.colorSelect{
+    width: 53px;
+    height: 53px;
+    overflow: hidden;
+    transition: height .5s;
+}
+
+#colorRed{
+    margin: 3px;
+    margin-bottom: 5px;
+}
+
+#colorBlue{
+    margin: 3px;
+    margin-bottom: 5px;
+}
+
+#colorWhite{
+    margin: 3px;
+    margin-bottom: 5px;
+}
+
+#colorYellow{
+    margin: 3px;
+    margin-bottom: 5px;
+}
+
+#colorBlack{
+    margin: 3px;
+    margin-bottom: 5px;
+}
+
+.chevron{
+   transform: rotate(90deg);
+   font-weight: bold;
+   font-size: 2rem;
+   margin-left: .5em;
+   margin-right: 1em;
+}
+
+.colorSelect div{
+    flex-shrink: 0;
+ 
+    margin: 0;
+}
+
+.commander {
+    padding: 1em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(180deg, #4BE852 0%, #479E60 100%);
+    border-radius: 42px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hrDeux{
+    margin-top: 4rem;
+    width: 100%;
+    border: .5px solid #B4B4B4;
+}
+
+/* FOOTER*/
+
+footer {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.conditions{
+    width: 500px;
+}
+
+.reseaux {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reseaux img{
+    margin: 1em;
+}
+
+.inscription{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nl{
+    margin-right: 0;
+    margin-bottom: 1em;
+}
+
+footer form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.adresse{
+    background: #FFFFFF;
+border: 1px solid rgba(86, 86, 86, 0.46);
+box-sizing: border-box;
+border-radius: 6px;
+    height: 30px;
+}
+
+.ok{
+    margin-left: 1em;
+    color: white;
+    border: none;
+    background: linear-gradient(180deg, #66B071 0%, #479E60 100%);
+    border-radius: 6px;
+    width: 30px;
+    height: 30px;
+}
+
